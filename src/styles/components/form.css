@@ -1,0 +1,70 @@
+.form {
+  display: grid;
+  align-items: stretch;
+  column-gap: 16px;
+}
+
+.form__field {
+  position: relative;
+}
+
+.form__field > * {
+  cursor: text;
+}
+
+.form__field-inputs {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  transition: border-color 0.1s linear
+}
+
+.form__field-inputs > * {
+  height: 56px;
+	border: 1px solid rgb(214, 217, 224);
+}
+
+.form__field-inputs > *:focus,
+.form__field-inputs:hover > *,
+.form__field-label:hover + .form__field-inputs > * {
+  border-color: rgba(3, 155, 229, 0.5);
+}
+
+.form__field-input {
+  padding: 24px 16px 8px;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form__field-label {
+	position: absolute;
+	font-size: 0.9rem;
+	font-weight: 100;
+	left: 10px;
+  bottom: 16px;
+	padding: 0 5px;
+  color: var(--color-grey);
+	user-select: none;
+  transition: all 0.2s ease;
+}
+
+.form__field-input:focus {
+	outline: 1px solid #aaa;
+}
+
+.form__field:has(.form__field-input:focus) .form__field-label {
+  transform: translate(-5px, -15px);
+  font-size: 0.8rem;
+	background-color: #fff;
+}
+
+.form__field-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  padding: 7px 16px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
