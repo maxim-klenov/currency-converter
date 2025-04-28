@@ -2,11 +2,13 @@
 
 ##### Other Changes
 
+* **fix:**
+  *  converter update (930cbd36)
+  *  removed unuseful code (1bdf69b9)
 * **feat:**
   *  changelog generator package command (8991ee99)
   *  add favicon (b54663b8)
   *  add favicon (f563f5fc)
-* **fix:**  removed unuseful code (1bdf69b9)
 * **docs:**  add more info about this repo (cb2932c8)
 * **test:**  new changelog generator package (82fa45e2)
 * **other:**  update right license info (3b8d7471)
