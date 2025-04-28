@@ -43,7 +43,7 @@ const App = () => {
   useEffect(() => {
     const convertCurrency = async () => {
       try {
-        const result = await Converter.convertOnDate(1, fromCurrency.toLowerCase(), toCurrency.toLowerCase(), new Date());
+        const result = await Converter.convert(1, fromCurrency.toLowerCase(), toCurrency.toLowerCase());
         setExchangeRate(result);
       } catch (error) {
         console.error(error);
