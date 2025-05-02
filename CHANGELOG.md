@@ -2,6 +2,7 @@
 
 ##### Other Changes
 
+* **update:**  vite (64fe6ffb)
 * **fix:**
   *  unuseful code remove (660489d9)
 * **perf:**
