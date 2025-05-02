@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import CheckedIcon from "./CheckedIcon"
 export default function Dropdown({currency, setCurrency}) {
   const currencies = [
