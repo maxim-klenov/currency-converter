@@ -1,3 +1,13 @@
+#### 0.0.2 (2025-05-02)
+
+##### Other Changes
+
+* **fix:**
+  *  unuseful code remove (660489d9)
+* **perf:**
+  *  aria attribute update (9fcf659e)
+  *  meta tags update (9348abd4)
+
 #### 0.0.1 (2025-04-28)
 
 ##### Other Changes
