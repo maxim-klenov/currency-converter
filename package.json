@@ -1,7 +1,7 @@
 {
   "name": "my-converter",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "homepage": "https://maxim-klenov.github.io/currency-converter",
   "scripts": {
