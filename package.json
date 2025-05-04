@@ -1,6 +1,6 @@
 {
   "name": "currency-converter",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "type": "module",
   "homepage": "https://maxim-klenov.github.io/currency-converter",
   "scripts": {
@@ -9,7 +9,9 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "log:v": "changelog generate -v"
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
     "currency-exchanger-js": "^1.0.4",
