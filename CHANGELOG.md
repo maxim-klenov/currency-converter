@@ -1,3 +1,13 @@
+#### 0.0.3 (2025-05-04)
+
+##### Other Changes
+
+* **update:**
+  *  changelog commands (a8a5262f)
+  *  version (cfdea4e6)
+* **feat:**
+  *  validate inputs (8c93f6f2)
+
 #### 0.0.2 (2025-05-02)
 
 ##### Other Changes
