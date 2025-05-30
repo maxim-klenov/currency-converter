@@ -1,8 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import Converter from 'currency-exchanger-js';
 import { currencyFormatters } from "./data/currencies.js";
-// import './App.css'
-// TODO: change type of connection of css
 import "./styles/common/fonts.css";
 import "./styles/common/normalize.css";
 import "./styles/common/variables.css";
@@ -20,6 +18,7 @@ const App = () => {
   // dropdown functionality
   const [dropdownOne, setDropdownOne] = useState(false);
   const [dropdownTwo, setDropdownTwo] = useState(false);
+  
   useEffect(() => {
     const handleCLickOutside = (e) => {
       if (!e.target.closest('.form__field-inputs')) {
@@ -41,7 +40,6 @@ const App = () => {
     setDropdownTwo(!dropdownTwo);
     setDropdownOne(false);
   }
-
 
 
   // convertation process
@@ -141,7 +139,7 @@ const App = () => {
                 <button className='form__field-button' type='button' onClick={toggleDropdownTwo} aria-label="открыть меню чтобы выбрать валюту в которую перевести валюту">
                   <svg className={dropdownTwo ? 'rotate-svg' : ''} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentcolor"><path d="M8 12a.997.997 0 0 1-.707-.293l-5-5a.999.999 0 1 1 1.414-1.414L8 9.586l4.293-4.293a.999.999 0 1 1 1.414 1.414l-5 5A.997.997 0 0 1 8 12z"></path></svg>
                 </button>
-                {dropdownTwo ? < Dropdown currency={toCurrency} setCurrency={setToCurrency} /> : ''}
+                {dropdownTwo ? < Dropdown currency={toCurrency} setCurrency={setToCurrency} /> : ''}  
               </div>
             </div>
           </form>
