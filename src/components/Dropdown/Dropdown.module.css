@@ -1,4 +1,5 @@
-.dropdown-menu{
+
+.dropdown{
   position: absolute;
   top: 100%;
   right: 0;
@@ -11,10 +12,10 @@
   box-shadow: rgba(22, 33, 54, 0.08) 0px 8px 16px, rgba(22, 33, 54, 0.08) 0px 4px 16px, rgba(22, 33, 54, 0.08) 0px 8px 16px;
   height: 200px;
 }
-.dropdown-menu__list{
+.list{
   padding: 8px 0px;
 }
-.dropdown-menu__item{
+.list__item{
   cursor: pointer;
   display: grid;
   grid-template-columns: 1fr min-content;
@@ -22,13 +23,10 @@
   align-items: center;
   user-select: none;
 }
-.dropdown-menu__item:hover {
+.list__item:hover {
   background-color: rgb(244, 245, 248);
 }
-.dropdown-menu__item-currency{
-
-}
-.dropdown-menu__item-icon{
+.list__item-icon{
   display: grid;
   align-items: center;
   color: rgb(3, 155, 229);

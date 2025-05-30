@@ -1,4 +1,30 @@
+html,
+body {
+  overflow-y: hidden;
+}
+
 body {
   font-family: var(--font-family-base);
   background-color: rgb(244, 245, 248);
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
 }
