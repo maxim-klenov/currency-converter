@@ -18,7 +18,7 @@ export default function Dropdown({currency, setCurrency}) {
     <div className={styles["dropdown"]}>
       <ul className={styles["list"]}>
       {currencies.map(({key, label}) => (
-        <li key={key} className={styles["list__item"]} onClick={() => setCurrency(key)}>
+        <li key={key} className={styles["list__item"]} onClick={() => setCurrency(key)} tabIndex={0}>
           <span className={styles["list__item-currency"]}>{label}</span>
           <span className={styles["list__item-icon"]}>
             {currency === key && <CheckedIcon />}
