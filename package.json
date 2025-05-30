@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "https://maxim-klenov.github.io/currency-converter",
   "scripts": {
-    "dev": "vite --port 9999",
+    "dev": "vite --host 0.0.0.0 --port 9999",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
