@@ -32,4 +32,4 @@
 - [MIT licence](LICENSE)
 - [Wiki](https://github.com/maxim-klenov/currency-converter/wiki)
 - [Github разработчика](https://github.com/maxim-klenov)
-- [Telegram разработчика](https://t.me/tgxzz)
+- [Telegram разработчика](https://t.me/maxklenov)
