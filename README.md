@@ -1,11 +1,15 @@
 
-# Currency converter
+# Currency converter 
+
+<img src="https://img.shields.io/badge/Оцени_проект_звездой_⭐-ffd60a?style=for-the-badge&logo=github&logoColor=black">
 
 **Описание**
 
 Это приложение позволяет конвертировать любую валюту в реальном времени. Он использует API который, в свою очередь позволяет получать актуальный курс. 
 
 Ссылка: https://maxim-klenov.github.io/currency-converter/
+
+<br>
 
 **Основная информация о проекте**
 
@@ -28,4 +32,4 @@
 - [MIT licence](LICENSE)
 - [Wiki](https://github.com/maxim-klenov/currency-converter/wiki)
 - [Github разработчика](https://github.com/maxim-klenov)
-- [Telegram разработчика](https://t.me/tgxzz)
+- [Telegram разработчика](https://t.me/maxklenov)
