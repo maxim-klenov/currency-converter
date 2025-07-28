@@ -1,0 +1,18 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "refactor"
+      include: "scope"
+    cooldown:
+      semver-major-days: 30    # Wait 30 days before accepting new major releases
+      semver-minor-days: 7     # Wait 7 days before accepting new minor releases
+      semver-patch-days: 3     # Wait 3 days before accepting new patch releases
