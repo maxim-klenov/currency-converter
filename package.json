@@ -13,7 +13,7 @@
   "dependencies": {
     "currency-exchanger-js": "^1.0.4",
     "currency.js": "^2.0.4",
-    "postcss-preset-env": "^10.1.6",
+    "postcss-preset-env": "^10.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
