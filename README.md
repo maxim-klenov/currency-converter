@@ -29,7 +29,7 @@
 
 ---
 **Дополнительные ссылки**
-- [MIT licence](LICENSE)
+- [Licence](LICENSE)
 - [Wiki](https://github.com/maxim-klenov/currency-converter/wiki)
-- [Github разработчика](https://github.com/maxim-klenov)
-- [Telegram разработчика](https://t.me/maxklenov)
+- [Github](https://github.com/maxim-klenov)
+- [Gmail](mailto:maxklenow@gmail.com)
