@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.1.17",
-    "@eslint/js": "^9.35.0",
+    "@eslint/js": "^9.36.0",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.2",
     "eslint": "^9.35.0",
