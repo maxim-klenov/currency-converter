@@ -15,7 +15,7 @@
     "currency.js": "^2.0.4",
     "postcss-preset-env": "^10.4.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.7",
